@@ -11,6 +11,7 @@ RUN set -eu; \
       gnuplot \
       pandoc \
       make \
+      latexmk \
     ; \
     apt-get clean; \
     rm -rf /var/lib/apt/lists/* ;
